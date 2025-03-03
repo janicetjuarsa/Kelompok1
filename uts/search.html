@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="css/search.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="dashboard_main.html">logo</a></div>
+        <div class="nav-buttons">
+            <button class="nav-btn">search</button>
+            <button class="nav-btn"><a href="notif.html">notif</button></a>
+            <button class="nav-btn"><a href="profile.html">profile</button></a>
+        </div>
+    </header>
+
+    <div class="input-group align-items-center ms-5">
+         <input type="text" class="form-control" placeholder="Search cafe...">
+        <select id="filterCategory" class="form-select">
+            <option value="all">All</option>
+            <option value="american">American Cuisine</option>
+            <option value="french">French Cuisine</option>
+            <option value="indo">Indonesian Cuisine</option>
+            <option value="italy">Italian Cuisine</option>
+            <option value="japan">Japanese Cuisine</option>
+            <option value="korean">Korean Cuisine</option>
+            <option value="thai">Thai Cuisine</option>
+        </select>
+        <button class="btn btn-primary" type="button" onclick="filterResults()">Search</button>
+    </div>
+    </div>
+
+    <div class="container">
+        <div class="kafe-box" onclick="goToDetails('123')">
+            <div class="logo-kafe">Logo Kafe</div>
+            <div class="info-kafe">List kafe (ada kafe makanan apa dan jalan dimana)</div>
+        </div>
+        <div class="kafe-box">
+            <div class="logo-kafe">Logo Kafe</div>
+            <div class="info-kafe">List kafe (ada kafe makanan apa dan jalan dimana)</div>
+        </div>
+        <div class="kafe-box">
+            <div class="logo-kafe">Logo Kafe</div>
+            <div class="info-kafe">List kafe (ada kafe makanan apa dan jalan dimana)</div>
+        </div>
+        <div class="kafe-box">
+            <div class="logo-kafe">Logo Kafe</div>
+            <div class="info-kafe">List kafe (ada kafe makanan apa dan jalan dimana)</div>
+        </div>
+        <div class="kafe-box">
+            <div class="logo-kafe">Logo Kafe</div>
+            <div class="info-kafe">List kafe (ada kafe makanan apa dan jalan dimana)</div>
+        </div>
+    </div>
+
+    <script>
+        function goToDetails(kafeId) {
+    window.location.href = `cafedetails.html?id=${kafeId}`;
+}
+    </script>
+</body>
+</html>
