@@ -13,7 +13,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #2c5469;
-    padding: 0px 20px;
+    padding: 20px 20px;
 }
 
 /* Logo */
@@ -81,15 +81,23 @@ body {
 
 /* Style untuk tiap box */
 .content-box {
-    width: 250px;
+    width: 260px;
     height: 200px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Ubah shadow untuk efek lebih menarik */
     text-align: center;
-    line-height: 100px;
-    font-weight: bold;
+    line-height: 100px; /* Tinggi baris untuk teks */
+    font-weight: bold; /* Teks tebal */
+    transition: transform 0.2s, box-shadow 0.2s; /* Tambahkan transisi untuk efek hover */
+}
+
+
+/* Efek hover untuk box */
+.content-box:hover {
+    transform: scale(1.05); /* Membesarkan box saat hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4); /* Ubah shadow saat hover */
 }
 
 /* Tombol Next & Previous */
