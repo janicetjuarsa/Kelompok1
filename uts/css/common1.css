@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: "Times New Roman", serif; /* Mengganti font menjadi Times New Roman */
 }
 
 /* Background utama */
@@ -21,70 +21,71 @@ body {
 
 /* Title */
 h2 {
-    color: #ffffff;
-    margin-bottom: 10px;
+    color: #ffffff; /* Warna teks putih */
+    margin-bottom: 10px; /* Jarak bawah */
 }
 
 /* Form Input */
 form {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
-    color: white;
+    flex-direction: column; /* Mengatur input menjadi kolom */
+    gap: 10px; /* Jarak antar elemen */
+    color: white; /* Warna teks putih */
 }
 
 input {
-    padding: 10px;
-    border: none;
-    color: white;
-    border-radius: 5px;
+    padding: 10px; /* Padding untuk input */
+    border: none; /* Tanpa border */
+    color: white; /* Warna teks putih */
+    border-radius: 5px; /* Sudut melengkung */
+    background-color: #8c6f4d; /* Warna coklat tua untuk latar belakang input */
 }
 
 button {
-    padding: 10px;
+    padding: 10px; /* Padding untuk tombol */
     background-color: #8c6f4d; /* Warna coklat tua */
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background 0.3s;
+    color: white; /* Warna teks putih */
+    border: none; /* Tanpa border */
+    cursor: pointer; /* Tanda kursor pointer */
+    border-radius: 5px; /* Sudut melengkung */
+    transition: background 0.3s; /* Efek transisi untuk hover */
 }
 
 button:hover {
-    background-color: #a08360;
+    background-color: #a08360; /* Warna coklat lebih terang saat hover */
 }
 
 /* Link */
 p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: white;
+    margin-top: 10px; /* Jarak atas */
+    font-size: 14px; /* Ukuran font */
+    color: white; /* Warna teks putih */
 }
 
 a {
-    color: #d2aa6d;
-    text-decoration: none;
-    font-weight: bold;
+    color: #d2aa6d; /* Warna kuning krem */
+    text-decoration: none; /* Tanpa garis bawah */
+    font-weight: bold; /* Teks tebal */
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Garis bawah saat hover */
 }
 
 /* Background image */
 .background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../gambar/background.jpg");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
+    position: absolute; /* Posisi absolut */
+    top: 0; /* Jarak atas */
+    left: 0; /* Jarak kiri */
+    width: 100%; /* Lebar 100% */
+    height: 100%; /* Tinggi 100% */
+    background-image: url("../gambar/background.jpg"); /* Gambar latar belakang */
+    background-size: cover; /* Menjaga rasio gambar */
+    background-position: center; /* Pusat gambar */
+    background-attachment: fixed; /* Gambar tetap saat scroll */
     z-index: -1; /* Background tetap di belakang */
 }
 
 input::placeholder {
-    font-size: 12px;
+    font-size: 12px; /* Ukuran font untuk placeholder */
 }
