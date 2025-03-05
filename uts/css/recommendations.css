@@ -12,14 +12,17 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #2c5469;
-    padding: 15px 20px;
-    z-index: 100;
+    padding: 0px 20px;
 }
 
 .logo {
-    background-color: #c49a6c;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.logo img {
+    width: 300px;
+    margin-bottom: -40px;
 }
 
 .nav-buttons {
