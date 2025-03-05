@@ -1,6 +1,6 @@
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family :'Franklin Gothic Medium', 'Arial Narrow';
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-    padding: 10px 20px;
+    padding: 25px 20px;
     border-radius: 5px;
 }
 
