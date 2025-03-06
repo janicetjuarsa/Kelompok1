@@ -1,26 +1,28 @@
 /* Global styles */
 body {
-    font-family: Times New Roman, Times, serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
     color: white;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #2c5469;
-    padding: 15px 20px;
+    padding: 0px 20px;
 }
 
-/* Logo */
 .logo {
-    background-color: #c49a6c;
     padding: 10px 20px;
     border-radius: 5px;
+}
+
+.logo img {
+    width: 300px;
+    margin-bottom: -40px;
 }
 
 /* Navigation buttons */
@@ -51,14 +53,14 @@ body {
 
 .logo-kafe {
     width: 250px;
-    height: 240px;
+    height: 250px;
     background-color: #c49a6c;
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
     border-radius: 10px;
-    margin : 26px;
+    margin : 20px;
 }
 
 .info-box {
@@ -67,7 +69,7 @@ body {
     margin-bottom: 10px;
     border-radius: 5px;
     color: white;
-    width : 1250px;
+    width : 920px;
 }
 
 /* Photo Section */
@@ -117,7 +119,7 @@ a{
 }
 
 .photo-title{
-    margin-left: 26px;
+    margin-left: 20px;
     margin-bottom: 20px;
 }
 

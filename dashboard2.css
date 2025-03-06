@@ -1,19 +1,18 @@
 /* Global styles */
 body {
-    font-family: Arial, sans-serif; /* Font global */
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8; /* Warna latar belakang */
-    color: white; /* Warna teks */
+    background-color: #f8f8f8;
+    color: white;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2c5469; /* Warna navbar */
-    padding: 10px 20px; /* Padding navbar */
+    background-color: #2c5469;
+    padding: 0px 20px;
 }
 
 .logo {
@@ -22,143 +21,123 @@ body {
 }
 
 .logo img {
-    width: 300px; /* Lebar logo */
-    margin-bottom: -40px; /* Margin bawah untuk logo */
+    width: 300px;
+    margin-bottom: -40px;
 }
 
 /* Navigation buttons */
 .nav-buttons {
     display: flex;
-    gap: 10px; /* Jarak antar tombol navigasi */
+    gap: 10px;
 }
 
 .nav-btn {
-    background-color: #c49a6c; /* Warna tombol */
-    padding: 10px 15px; /* Padding untuk tombol */
-    border: none; /* Tanpa border */
-    border-radius: 5px; /* Sudut melengkung */
-    cursor: pointer; /* Tanda kursor pointer */
-    font-weight: bold; /* Teks tebal */
-    color: white; /* Warna teks untuk tombol */
+    background-color: #c49a6c;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color : white;
 }
 
 /* Wrapper utama untuk scrolling vertikal */
 .content-wrapper {
     display: flex;
-    flex-direction: column; /* Mengatur menjadi kolom */
-    gap: 20px; /* Jarak antar elemen */
-    padding: 20px; /* Padding untuk wrapper */
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
     max-height: 80vh; /* Batasi tinggi agar bisa di-scroll */
-    overflow-y: auto; /* Overflow vertikal */
+    overflow-y: auto;
 }
 
 /* Setiap section */
 .content-section {
-    background-color: #a67c52; /* Warna section */
-    padding: 15px; /* Padding untuk section */
-    border-radius: 10px; /* Sudut melengkung */
-    color: white; /* Warna teks untuk section */
-}
-
-/* Judul untuk Recommendations, Recent Visits, dan Favorites */
-.section-title {
-    font-family: Arial, sans-serif; /* Font Arial untuk judul section */
-    font-size: 20px; /* Ukuran font judul */
-    font-weight: bold; /* Teks tebal */
-    margin-bottom: 10px; /* Jarak bawah judul */
+    background-color: #a67c52;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
 }
 
 /* Wrapper untuk scrolling horizontal */
 .scroll-container {
     display: flex;
-    align-items: center; /* Rata tengah secara vertikal */
-    gap: 10px; /* Jarak antar elemen */
-    overflow: hidden; /* Sembunyikan overflow */
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
 }
 
 /* Container untuk box horizontal */
 .content {
     display: flex;
-    gap: 35px; /* Jarak antar box */
-    overflow-x: auto; /* Overflow horizontal */
-    scroll-behavior: smooth; /* Efek smooth saat scroll */
-    white-space: nowrap; /* Menjaga elemen dalam satu baris */
-    width: 85%; /* Lebar konten */
+    gap: 35px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    width: 85%;
 }
 
 /* Style untuk tiap box */
 .content-box {
-    width: 250px; /* Lebar box */
-    height: 200px; /* Tinggi box */
-    background-color: #fff; /* Warna latar belakang box */
-    border: 1px solid #ccc; /* Border box */
-    border-radius: 10px; /* Sudut melengkung */
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Box shadow */
-    text-align: center; /* Rata tengah teks */
-    overflow: hidden; /* Sembunyikan overflow */
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
 }
 
 /* Tombol Next & Previous */
 .prev-btn, .next-btn {
-    background-color: #ff6b6b; /* Warna tombol */
-    border: none; /* Tanpa border */
-    padding: 10px; /* Padding untuk tombol */
-    font-size: 18px; /* Ukuran font */
-    color: white; /* Warna teks untuk tombol */
-    cursor: pointer; /* Tanda kursor pointer */
-    border-radius: 5px; /* Sudut melengkung */
+    background-color: #ff6b6b;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
-.prev-btn {
-    margin-right: 20px; /* Jarak kanan untuk tombol sebelumnya */
+.prev-btn{
+    margin-right: 20px;
 }
 
-.next-btn {
-    margin-left: 20px; /* Jarak kiri untuk tombol berikutnya */
+.next-btn{
+    margin-left: 20px;
 }
 
-a {
-    text-decoration: none; /* Tanpa garis bawah */
-    color: white; /* Warna teks untuk tautan */
+a{
+    text-decoration: none;
+    color: white;
 }
 
-/* Reservation Box */
 .reservation-box {
-    background-color: #a67c52; /* Warna box reservasi */
-    padding: 20px; /* Padding untuk box reservasi */
-    border-radius: 10px; /* Sudut melengkung */
-    display: flex; /* Flexbox untuk tata letak */
-    flex-direction: column; /* Mengatur menjadi kolom */
-    align-items: center; /* Rata tengah secara horizontal */
+    background-color: #a67c52;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
 }
 
-/* Logo Box */
 .logo-box {
     background-color: #d2a875; /* Warna logo */
-    width: 230px; /* Lebar logo box */
-    height: 200px; /* Tinggi logo box */
-    display: flex; /* Flexbox untuk logo */
-    justify-content: center; /* Rata tengah secara horizontal */
-    align-items: center; /* Rata tengah secara vertikal */
-    text-align: center; /* Rata tengah teks */
-    font-size: 14px; /* Ukuran font untuk logo */
-    font-weight: bold; /* Teks tebal */
-    margin-bottom: 15px; /* Margin bawah untuk logo box */
-    border-radius: 10px; /* Sudut melengkung */
+    width: 230px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+    border-radius: 10px;;
 }
 
-/* Reservation Info */
 .reservation-info {
-    color: black; /* Warna teks untuk informasi reservasi */
-    font-size: 16px; /* Ukuran font untuk informasi reservasi */
-    text-align: center; /* Rata tengah teks */
-}
-
-/* Reservations heading */
-.reservation-heading {
-    font-family: Arial, sans-serif; /* Font untuk judul reservasi */
-    font-size: 24px; /* Ukuran font besar untuk judul reservasi */
-    font-weight: bold; /* Teks tebal */
-    color: black; /* Warna hitam */
-    margin-bottom: 10px; /* Jarak bawah */
+    color: black;
+    font-size: 14px;
 }
