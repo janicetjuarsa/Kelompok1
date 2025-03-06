@@ -1,20 +1,19 @@
 /* Global styles */
 body {
-  font-family: 'Arial', sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f7f7f7; /* Warna latar belakang yang lebih terang */
-  color: #333; /* Warna teks yang lebih gelap untuk kontras */
+    font-family: Times New Roman, Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: white;
 }
 
-/* Navbar styles */
+/* Navbar */
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #2c5469; /* Warna navbar */
-  padding: 20px 30px; /* Padding navbar */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c5469;
+    padding: 15px 20px;
 }
 
 .logo {
