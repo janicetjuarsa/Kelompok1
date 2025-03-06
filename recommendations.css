@@ -1,0 +1,109 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8; /* Warna latar belakang yang lebih terang */
+    color: #333; /* Warna teks yang lebih gelap untuk kontras */
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c5469; /* Warna navbar */
+    padding: 20px 30px; /* Padding navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk navbar */
+}
+
+.logo {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.logo img {
+    width: 300px; /* Lebar gambar logo */
+}
+
+/* Navigation button styles */
+.nav-buttons {
+    display: flex;
+    gap: 15px; /* Jarak antar tombol navigasi */
+}
+
+.nav-btn {
+    background-color: #c49a6c; /* Warna tombol */
+    padding: 10px 20px; /* Padding tombol */
+    border: none; /* Tanpa border */
+    border-radius: 5px; /* Sudut melengkung tombol */
+    cursor: pointer; /* Tanda kursor pointer */
+    font-weight: bold; /* Teks tebal */
+    color: white; /* Warna teks tombol */
+    transition: background-color 0.3s, transform 0.2s; /* Efek transisi */
+}
+
+.nav-btn:hover {
+    background-color: #b89a5c; /* Warna saat hover */
+    transform: translateY(-2px); /* Efek angkat saat hover */
+}
+
+/* Link styles */
+a {
+    text-decoration: none; /* Tanpa garis bawah */
+    color: white; /* Warna teks tautan */
+}
+
+/* Container styles */
+.container {
+    max-width: 1226px; /* Lebar maksimum kontainer */
+    margin: 20px auto; /* Margin otomatis untuk pusat */
+    height: auto; /* Tinggi otomatis */
+}
+
+/* Cafe box styles */
+.kafe-box {
+    font-family: 'Times New Roman', Times, serif; /* Font untuk cafe box */
+    display: flex;
+    align-items: center; /* Rata tengah secara vertikal */
+    background-color: #8B6F4E; /* Warna latar belakang cafe box */
+    padding: 20px; /* Padding untuk cafe box */
+    margin-bottom: 15px; /* Jarak bawah antar box */
+    border-radius: 10px; /* Sudut melengkung */
+    color: black; /* Warna teks dalam cafe box */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk cafe box */
+    transition: transform 0.2s; /* Efek transisi */
+}
+
+.kafe-box:hover {
+    transform: scale(1.02); /* Efek zoom saat hover */
+}
+
+/* Logo cafe styles */
+.logo-kafe {
+    width: 150px; /* Lebar logo cafe */
+    height: 150px; /* Tinggi logo cafe */
+    background-color: #D7B16D; /* Warna latar belakang logo */
+    display: flex;
+    align-items: center; /* Rata tengah secara vertikal */
+    justify-content: center; /* Rata tengah secara horizontal */
+    font-weight: bold; /* Teks tebal */
+    border-radius: 10px; /* Sudut melengkung */
+    flex-shrink: 0; /* Mencegah penyusutan logo */
+}
+
+/* Info cafe styles */
+.info-kafe {
+    flex-grow: 1; /* Memungkinkan info-kafe tumbuh */
+    padding-left: 15px; /* Padding kiri untuk info kafe */
+}
+
+/* Notification title styles */
+.notif-title {
+    background-color: #8b6f4e; /* Warna latar belakang untuk notif title */
+    color: white; /* Warna teks untuk notif title */
+    padding: 15px; /* Padding untuk notif title */
+    border-radius: 5px; /* Sudut melengkung */
+    font-weight: bold; /* Teks tebal */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Bayangan untuk notif title */
+}
