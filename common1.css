@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", serif; /* Mengganti font menjadi Times New Roman */
+}
+
+/* Background utama */
+body {
+    background-color: #f9f3fc; /* Warna ungu muda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container utama */
+.container {
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    color: #ffffff; /* Warna teks putih */
+    margin-bottom: 10px; /* Jarak bawah */
+}
+
+/* Form Input */
+form {
+    display: flex;
+    flex-direction: column; /* Mengatur input menjadi kolom */
+    gap: 10px; /* Jarak antar elemen */
+    color: white; /* Warna teks putih */
+}
+
+input {
+    padding: 10px; /* Padding untuk input */
+    border: none; /* Tanpa border */
+    color: white; /* Warna teks putih */
+    border-radius: 5px; /* Sudut melengkung */
+    background-color: #8c6f4d; /* Warna coklat tua untuk latar belakang input */
+}
+
+button {
+    padding: 10px; /* Padding untuk tombol */
+    background-color: #8c6f4d; /* Warna coklat tua */
+    color: white; /* Warna teks putih */
+    border: none; /* Tanpa border */
+    cursor: pointer; /* Tanda kursor pointer */
+    border-radius: 5px; /* Sudut melengkung */
+    transition: background 0.3s; /* Efek transisi untuk hover */
+}
+
+button:hover {
+    background-color: #a08360; /* Warna coklat lebih terang saat hover */
+}
+
+/* Link */
+p {
+    margin-top: 10px; /* Jarak atas */
+    font-size: 14px; /* Ukuran font */
+    color: white; /* Warna teks putih */
+}
+
+a {
+    color: #d2aa6d; /* Warna kuning krem */
+    text-decoration: none; /* Tanpa garis bawah */
+    font-weight: bold; /* Teks tebal */
+}
+
+a:hover {
+    text-decoration: underline; /* Garis bawah saat hover */
+}
+
+/* Background image */
+.background-image {
+    position: absolute; /* Posisi absolut */
+    top: 0; /* Jarak atas */
+    left: 0; /* Jarak kiri */
+    width: 100%; /* Lebar 100% */
+    height: 100%; /* Tinggi 100% */
+    background-image: url("../gambar/background.jpg"); /* Gambar latar belakang */
+    background-size: cover; /* Menjaga rasio gambar */
+    background-position: center; /* Pusat gambar */
+    background-attachment: fixed; /* Gambar tetap saat scroll */
+    z-index: -1; /* Background tetap di belakang */
+}
+
+input::placeholder {
+    font-size: 12px; /* Ukuran font untuk placeholder */
+}
