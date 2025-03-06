@@ -4,7 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Review</title>
-    <link rel="stylesheet" href="review.css">
+    <link rel="stylesheet" href="css/review.css"> 
+    <style>
+        .back{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
 </head>
 <body>
     <header class="navbar">
@@ -61,26 +66,18 @@
         <div class="comment-box">
             <h3>Share your thoughts</h3>
             <textarea placeholder="Write a review..."></textarea>
-            <button class="submit-btn">Submit</button>
+            <button class="submit-btn"><a href="cafedetai">Submit</a></button>
         </div>
     </div>
     
-    <!-- Footer -->
     <div class="footer">
-        Back to Dashboard
-    </div>
+        <button class="btn back-btn" onclick="goToDetails('123')">Back to Dashboard</button>
+      </div>
     
-<!-- Tombol Back to Dashboard -->
-<div class="footer">
-    Back to Dashboard
-    <button class="btn back-btn" onclick="goToDetails('123')">Back to Dashboard</button>
-  </div>
-
-  <script>
-    function goToDetails(kafeId) {
-window.location.href = `cafedetails.html?id=${kafeId}`;
-}
-</script>
-
+      <script>
+        function goToDetails(kafeId) {
+    window.location.href = `cafedetails.html?id=${kafeId}`;
+    }
+    </script>
 </body>
 </html>
