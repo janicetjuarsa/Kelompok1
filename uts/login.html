@@ -29,22 +29,5 @@
             <p>Don't have an account? <a href="sign_up.html">Sign Up</a></p>
         </div>
     </div>
-
-    <script>
-        document.getElementById("loginForm").addEventListener("submit", function(event) {
-            event.preventDefault(); // Mencegah submit default
-
-            // Validasi input
-            let email = document.getElementById("email").value.trim();
-            let password = document.getElementById("password").value.trim();
-
-            if (email !== "" && password !== "") {
-                // Jika semua input sudah diisi, arahkan ke dashboard_main.html
-                window.location.href = "dashboard_main.html";
-            } else {
-                alert("Please fill in all fields correctly.");
-            }
-        });
-    </script>
 </body>
 </html>
